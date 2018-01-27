@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="true"?>
+<FileZilla3> 
+    <Servers> 
+
+        <Server> 
+            <Host>50.62.160.20</Host>
+			<Port>21</Port>
+			<Protocol>0</Protocol>
+			<Type>0</Type>
+			<User>ftp_brochure</User>
+			<Pass encoding="base64">QUUzbS4uU0FRbi4uem0uX0cuQXZ6alE5eUdlLjE5OTM=</Pass>
+			<Logontype>1</Logontype>
+			<TimezoneOffset>0</TimezoneOffset>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<MaximumMultipleConnections>0</MaximumMultipleConnections>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>Brochure_TheSignLabCo</Name>
+			<Comments>AE3m..SAQn..zm._G.AvzjQ9yGe.1993</Comments>
+			<Colour>0</Colour>
+			<LocalDir />
+			<RemoteDir />
+			<SyncBrowsing>0</SyncBrowsing>
+			<DirectoryComparison>0</DirectoryComparison>
+        </Server> 
+        
+    </Servers> 
+</FileZilla3>

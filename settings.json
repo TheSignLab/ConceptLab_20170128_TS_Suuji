@@ -1,0 +1,12 @@
+{
+    "ProjectName": "Web Brochure",
+    "Creation Date": "22/01/2018",
+    "FTP_ACCOUNT": [
+        
+                    {"FTP_HOST": "50.62.160.20"},
+                    {"FTP_USER": "ftp_brochure"},
+                    {"FTP_PASSWORD": "AE3m..SAQn..zm._G.AvzjQ9yGe.1993"}
+        
+                   ],
+    "cars": ["Ford", "BMW", "Fiat"]
+}
