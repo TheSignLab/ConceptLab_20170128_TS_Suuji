@@ -1,0 +1,133 @@
+      .Header {
+          
+          display: block;
+          color: white;
+          font-family: font-light;
+          font-size: 20px;
+          position: fixed;
+   
+          z-index: 1;
+          width: 100%;
+          height: 100px;
+
+
+
+
+          -webkit-transition: top linear 0.1s;
+          /* Safari */
+          transition: top linear 0.1s;
+
+          background-color: black;
+
+          z-index: 1;
+          position: fixed;
+          top: -100px;
+          left: 0px;
+          color: white;
+      }
+
+      .Header .Header-title {
+          font-family: font-bold;
+          height: 100%;
+
+          font-size: 40px;
+
+          padding-left: 40px;
+          padding-right: 40px;
+
+          float: left;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          text-align: center;
+
+          opacity: 1.0;
+          -webkit-transition: left linear 1s;
+          transition: left linear 1s;
+      }
+
+      .Header .Header-title span {
+          position: relative;
+          top: -5px;
+      }
+
+
+
+
+
+      .Header .Header-sections {
+          font-family: font-bold;
+          height: 100%;
+          float: right;
+
+          padding-left: 40px;
+          padding-right: 40px;
+
+
+
+      }
+
+      .Header .Header-section {
+          font-size: 15px;
+          height: 100%;
+          float: left;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          text-align: center;
+
+
+      }
+
+      .Header .Header-section div {}
+
+      .Header .Header-section span {
+          padding: 5px;
+          opacity: 1.0;
+          -webkit-transition: all linear 1s;
+          transition: all linear 1s;
+
+      }
+
+      .Header .Header-subsection {
+          font-size: 15px;
+          height: 100%;
+          float: left;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          text-align: center;
+
+          font-size: 15pt;
+          position: relative;
+          top: -1px;
+      }
+
+      .Header .Header-subsection span {
+
+          float: left;
+          opacity: 1.0;
+          -webkit-transition: all linear 1s;
+          transition: all linear 1s;
+
+      }
+
+      .Header .Header-dots {
+          height: 100%;
+          float: left;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          text-align: center;
+          opacity: 1.0;
+          -webkit-transition: left linear 1s;
+          transition: lfet linear 1s;
+      }
+
+      .Header .Header-dots span {
+          padding: 10px;
+          font-size: 70px;
+          position: relative;
+          top: -10px;
+
+      }

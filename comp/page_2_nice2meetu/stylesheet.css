@@ -1,0 +1,73 @@
+.nice2meetu-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.nice2meetu-wrapper2 {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+    position: relative;
+    top: -100px;
+    
+        width: 1700px;
+    margin: 0 auto;
+}
+
+.nice2meetu-title {
+    width: 50%;
+    font-size: 50pt;
+    color: black;
+    font-family: font-regular;
+    margin: 0 auto;
+    z-index: 10;
+    display: inline-block;
+    text-align: left;
+
+}
+
+.nice2meetu-title p{
+    font-size: 26pt;
+    width: 600px;
+   
+      line-height: 120%;
+    text-align: left;
+}
+
+.nice2meetu-title span {}
+
+.nice2meetu-title .subline {
+    background-color: #59FFCE;
+    width: 850px;
+    height: 5px;
+    position: relative;
+    top: -10px;
+    left: 220px;
+    z-index: -1;
+
+}
+
+
+.nice2meetu-dots {
+    font-size: 60pt;
+    display: inline-block;
+     margin-left:150px;
+    float: left;display: inline-block;;position: relative;top:-25px;left: -5px
+}
+
+
+.nice2meetu-title .small{
+    font-size: 13pt;
+}
+
+.underline{
+    text-decoration: underline;
+       text-decoration-color: #59FFCE;
+}

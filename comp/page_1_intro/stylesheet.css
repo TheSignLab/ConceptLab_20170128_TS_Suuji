@@ -1,0 +1,93 @@
+.intro-wrapper {
+    width: 100%;
+    height: calc(100% - 100px);
+     
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+
+}
+
+
+.intro-video {
+    height: 100vh;
+}
+
+.intro-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.intro-slide-wrapper {}
+
+.fc1 {
+    color: #59FFCE;
+}
+
+.intro-title {
+    font-size: 25pt;
+    color: white;
+    font-family: font-light;
+
+}
+
+.intro-title p {
+       font-size: 17pt;
+    padding-left: 50px;
+    max-width: 600px;
+}
+.dots {
+    position: relative;
+    top: -2px;
+    font-size: 28pt;
+}
+
+
+
+.intro-form input {
+    border: 1px solid black;
+    border-left: 5px solid #59FFCE;
+    padding: 10px;
+    margin: 10px;
+    color: #59FFCE;
+    text-align: center;
+    width: 300px;
+    height: 20px;
+    background-color: rgba(20,20,20,0.2);
+    font-size: 18pt;
+}
+
+.intro-form button {
+  
+    background-color: #59FFCE;
+    border: none;
+     width: 60px;
+    height: 40px;
+    margin: 10px;
+    position: relative;
+    top: -5px;
+    cursor: pointer;
+    
+    caret-color: #59FFCE;
+    
+      position: relative;
+    top: 25px;
+}
+
+input:focus, input[type]:focus{
+    border-color:#59FFCE;
+      outline:inherit;
+    border:5px solid #59FFCE;
+}
+
+.intro-form button span{
+
+    position: relative;
+    top: -23px;
+    font-family: font-bold;
+    font-size:50px;
+    color: black;
+}
