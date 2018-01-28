@@ -43,3 +43,10 @@ function handler_header(index, nextIndex, direction) {
 
 
 }
+
+$(document).ready(function(){
+	$('.ts-mobile-btn').click(function(){
+		$(this).toggleClass('open');
+        $($('nav section')[1]).toggleClass('open');
+	});
+});

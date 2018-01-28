@@ -35,31 +35,13 @@ function init_footer() {
 }
 
 
-function dark_footer() {
-    $('.ts-footer').animate({
-        bottom: "0px",
-        backgroundColor: "black",
-        color: "white"
-    });
-    $(".footer-ts-elemen").css({
-        borderRightColor: "white"
-    });
-
-}
-
-
-
-
-
-
-
 
 
 $(document).ready(function () {
 
     $('main').fullpage({
-        sectionSelector: '.section',
-        slideSelector: '.slide',
+        sectionSelector: 'section',
+        slideSelector: 'slide',
         css3: true,
         slidesNavigation: true,
         slidesNavPosition: 'bottom',
@@ -68,12 +50,21 @@ $(document).ready(function () {
 
         onSlideLeave: function (anchorLink, index, slideIndex, direction, nextSlideIndex) {
 
+            if (nextSlideIndex == 0) {
+                hide_footer();
+            } else {
+                setTimeout(function () {
+                    show_footer(nextSlideIndex)
+                }, 300)
+
+            }
 
             if (nextSlideIndex == 1) {
-                init_footer();
+                light_footer();
             } else {
                 dark_footer();
             }
+
 
         }
     });
