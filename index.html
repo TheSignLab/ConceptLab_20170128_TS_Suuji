@@ -127,16 +127,13 @@
 
     <!-- ----------------- Header Navbar ---------------------->
     <style>
-
-
     </style>
     <nav>
         <section>
-            <div class="ts-title">
+            <div class="ts-title" onclick="go2S0()">
                 thes:gn
             </div>
-
-            <div class="ts-theend">
+            <div class="ts-theend" onclick="go2S5()">
                 <span class="f-light">| the </span><span class="f-bold"> end </span> <img src="comp/nav/white_dots.svg">
             </div>
             <div class="ts-mobile-btn">
@@ -148,11 +145,11 @@
         </section>
         <section>
             <div class="ts-items">
-                <div class="ts-item"><span class="f-light">Ver</span><span class="f-bold">Proyectos</span></div>
-                <div class="ts-item"><span class="f-light">Conocer</span><span class="f-bold">Equipo</span></div>
-                <div class="ts-item"><span class="f-light">Buscar</span><span class="f-bold">Inspiración</span></div>
-                <div class="ts-item"><span class="f-light">Visitar</span><span class="f-bold">TheSign</span></div>
-                <div class="ts-item"><span class="f-light">Contactar</span><span class="f-bold">Empresa</span></div>
+                <div class="ts-item" onclick="go2S2()"><span class="f-light">Ver</span><span class="f-bold">Proyectos</span></div>
+                <div class="ts-item" onclick="go2S3()"><span class="f-light">Conocer</span><span class="f-bold">Equipo</span></div>
+                <div class="ts-item" onclick="go2S4()"><span class="f-light">Buscar</span><span class="f-bold">Inspiración</span></div>
+                <div class="ts-item" onclick="go2S5()"><span class="f-light">Visitar</span><span class="f-bold">TheSign</span></div>
+                <div class="ts-item" onclick="go2S6()"><span class="f-light">Contactar</span><span class="f-bold">Empresa</span></div>
             </div>
         </section>
     </nav>
@@ -161,11 +158,11 @@
     <!-- ----------------- Footer Navbar ---------------------->
     <footer>
         <div class="ts-items">
-            <div class="ts-item"><span class="f-light">Ver</span><span class="f-bold">Proyectos</span></div>
-            <div class="ts-item"><span class="f-light">Conocer</span><span class="f-bold">Equipo</span></div>
-            <div class="ts-item"><span class="f-light">Buscar</span><span class="f-bold">Inspiración</span></div>
-            <div class="ts-item"><span class="f-light">Visitar</span><span class="f-bold">TheSign</span></div>
-            <div class="ts-item"><span class="f-light">Contactar</span><span class="f-bold">Empresa</span></div>
+            <div class="ts-item" onclick="go2S2()"><span class="f-light">Ver</span><span class="f-bold">Proyectos</span></div>
+            <div class="ts-item" onclick="go2S3()"><span class="f-light">Conocer</span><span class="f-bold">Equipo</span></div>
+            <div class="ts-item" onclick="go2S4()"><span class="f-light">Buscar</span><span class="f-bold">Inspiración</span></div>
+            <div class="ts-item" onclick="go2S5()"><span class="f-light">Visitar</span><span class="f-bold">TheSign</span></div>
+            <div class="ts-item" onclick="go2S6()"><span class="f-light">Contactar</span><span class="f-bold">Empresa</span></div>
         </div>
     </footer>
     <!-- ----------------- Footer Navbar ---------------------->
@@ -188,8 +185,10 @@
 
                     <div class="ts-wrapper-row">
                         <img class="ts-dots" src="comp/nav/green_dots.svg">
-                        <span class="f-light">hola , somos </span>
-                        <span class="f-bold">thesign...</span>
+                        <div id="typejs_s0_t1">
+                            <span class="f-light">hola , somos </span>
+                            <span class="f-bold">thesign...</span>
+                        </div>
                         <p>
                             un laboratorio de diseño con proyectos innovadores desarrollados a partir de iniciativas en multiples campos creativos como el branding estratégico, diseño y desarrollo de producto.
                         </p>
@@ -201,7 +200,7 @@
                     </div>
                     <div class="ts-wrapper-row">
                         <input type="text" class="fc1">
-                        <img class="img-btn" src="comp/page_1_intro/btn-01.svg" width="100%">
+                        <img class="img-btn" src="comp/page_1_intro/btn-01.svg" width="100%" id="id_s0_btn">
                     </div>
                     <a>No quiero dar mi nombre</a>
 
@@ -231,17 +230,47 @@
                     </div>
                     <div class="ts-wrapper-row">
                         <img class="ts-dots" src="comp/nav/green_dots.svg">
-                       <mark>Nuestra participación permite que las ideas de negocio y las marcas crezcan. Unimos nuestro conocimiento y dedicación con la intención de crear juntos un futuro significativo...</mark>
-                    </div>
-                     <div class="ts-wrapper-row">
-                       <span class="f-bold underline" id="s1_tgt_www">¿Qué quieres hacer hoy?</span>
+                        <mark>Nuestra participación permite que las ideas de negocio y las marcas crezcan. Unimos nuestro conocimiento y dedicación con la intención de crear juntos un futuro significativo...</mark>
                     </div>
                     <div class="ts-wrapper-row">
-                      <img src="comp/page_3_seeproyects/">
+                        <span class="f-bold underline">Estas son algunas de ellas</span>
+                    </div>
+                    <div class="ts-wrapper-row">
+                        <img src="comp/page_3_seeproyects/">
                     </div>
                 </div>
             </slide>
             <!-- -------------- Slide 2 ----------------------->
+
+            <!-- -------------- Slide 2.5 ----------------------->
+            <slide class="ts-slide-2p5 bg-black">
+                <div class="ts-wrapper">
+                    <div class="slide-full-scroll">
+                        <div class="slide-full-scroll-wrapper">
+
+
+                            <div class="slide-bg p0">
+                                <div class="slide-vb"></div>
+                            </div>
+                            <div class="slide-bg p1">
+                                <div class="slide-vb"></div>
+                            </div>
+                            <div class="slide-bg p2">
+                                <div class="slide-vb"></div>
+                            </div>
+                            <div class="slide-bg p3">
+                                <div class="slide-vb"></div>
+                            </div>
+                            <div class="slide-bg p4">
+                                <div class="slide-vb"></div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </slide>
+            <!-- -------------- Slide 2.5 ----------------------->
 
         </section>
     </main>

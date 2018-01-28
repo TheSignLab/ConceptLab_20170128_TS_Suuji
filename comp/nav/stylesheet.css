@@ -1,222 +1,233 @@
-        nav {
-            width: 100vw;
-            height: 100px;
-            background-color: black;
+/* ----------------------------------------------------- */
 
-            font-family: font-bold;
-            font-size: 20pt;
-            color: white;
-            
-            position: fixed;
-            top: 0px;
-            
-            z-index: 100;
+/*
+        Navbar Stylesheet.css
+*/
 
-        }
+/* ----------------------------------------------------- */
 
-        nav section {
-            width: 100vw;
-            height: 100px;
-            display: block;
-            background-color: black;
+nav {
+    width: 100vw;
+    height: 100px;
+    background-color: black;
 
-        }
+    font-family: font-bold;
+    font-size: 25pt;
+    color: white;
 
-        nav section .ts-title {
-            padding: 20px;
-            font-size: 30pt;
-            float: left;
-        }
+    position: fixed;
+    top: 0px;
 
-        nav section .ts-mobile-btn {
-            float: right;
-        }
+    z-index: 100;
 
+}
 
+nav section {
+    width: 100vw;
+    height: 100px;
+    display: block;
+    background-color: black;
 
-        .ts-theend {
-            height: 100px;
-            float: right;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
+}
 
-        .ts-theend img {
-            height: 75px;
-        }
+nav section .ts-title {
+    padding: 15px;
+    font-size: 35pt;
+    float: left;
+    cursor: pointer;
+}
 
-        .ts-theend .f-bold {
-            padding-bottom: 2px;
-            padding-left: 2px;
-        }
+nav section .ts-mobile-btn {
+    float: right;
+}
 
-        .ts-items {
-            width: 70vw;
-            height: 100px;
-            margin: 0 auto;
-            display: flex;
-            align-items: center;
-            justify-content: center;
 
-        }
 
-        .ts-item {
-            border-right: 2px solid white;
-            padding: 5px 20px 5px 20px;
-             text-transform: uppercase;
+.ts-theend {
+    height: 100px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
 
-        }
+.ts-theend img {
+    height: 75px;
+}
 
-        .ts-item span {
-            display: block;
-        }
+.ts-theend .f-bold {
+    padding-bottom: 2px;
+    padding-left: 2px;
+}
 
-        .ts-item:last-child {
-            border-right: 0px solid white;
-        }
+.ts-items {
+    width: 70vw;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
 
+.ts-item {
+    border-right: 2px solid white;
+    padding: 5px 20px 5px 20px;
+    text-transform: uppercase;
 
+}
 
+.ts-item span {
+    display: block;
+}
 
+.ts-item:last-child {
+    border-right: 0px solid white;
+}
 
 
 
-        /* -------------- Responsive :: Movil ------------------------ */
 
-        nav section:last-child {
-            height: 200px;
-            border-top: 1px solid #333;
-        }
 
-        nav section .ts-items:last-child {
-            height: 200px;
-        }
 
-        nav section .ts-items .ts-item span {
-            display: block;
-            font-size: 20pt;
-        }
 
 
+/* -------------- Responsive :: Movil ------------------------ */
 
+nav section:last-child {
+    height: 200px;
+    border-top: 1px solid #333;
+}
+
+nav section .ts-items:last-child {
+    height: 200px;
+}
+
+nav section .ts-items .ts-item span {
+    display: block;
+    font-size: 20pt;
+}
+
+
+
+
+.ts-mobile-btn {
+    width: 60px;
+    height: 45px;
+    position: relative;
+    margin: 0px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+
+
+
+    float: right;
+    margin-top: 20px;
+    margin-right: 0px;
 
-        .ts-mobile-btn {
-            width: 60px;
-            height: 45px;
-            position: relative;
-            margin: 0px;
-            -webkit-transform: rotate(0deg);
-            -moz-transform: rotate(0deg);
-            -o-transform: rotate(0deg);
-            transform: rotate(0deg);
-            -webkit-transition: .5s ease-in-out;
-            -moz-transition: .5s ease-in-out;
-            -o-transition: .5s ease-in-out;
-            transition: .5s ease-in-out;
-            cursor: pointer;
-
-
-
-            float: right;
-            margin-top: 30px;
-            margin-right: 20px;
+}
 
-        }
+.ts-mobile-btn span {
+    display: block;
+    position: absolute;
+    height: 5px;
+    width: 70%;
+    background: white;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
 
-        .ts-mobile-btn span {
-            display: block;
-            position: absolute;
-            height: 9px;
-            width: 100%;
-            background: white;
-            border-radius: 9px;
-            opacity: 1;
-            left: 0;
-            -webkit-transform: rotate(0deg);
-            -moz-transform: rotate(0deg);
-            -o-transform: rotate(0deg);
-            transform: rotate(0deg);
-            -webkit-transition: .25s ease-in-out;
-            -moz-transition: .25s ease-in-out;
-            -o-transition: .25s ease-in-out;
-            transition: .25s ease-in-out;
-        }
 
+/* Icon 3 */
 
-        /* Icon 3 */
+.ts-mobile-btn span:nth-child(1) {
+    top: 0px;
+}
 
-        .ts-mobile-btn span:nth-child(1) {
-            top: 0px;
-        }
+.ts-mobile-btn span:nth-child(2),
+.ts-mobile-btn span:nth-child(3) {
+    top: 9px;
+}
 
-        .ts-mobile-btn span:nth-child(2),
-        .ts-mobile-btn span:nth-child(3) {
-            top: 18px;
-        }
+.ts-mobile-btn span:nth-child(4) {
+    top: 18px;
+}
 
-        .ts-mobile-btn span:nth-child(4) {
-            top: 36px;
-        }
 
+.ts-mobile-btn.open span:nth-child(1) {
+    top: 9px;
+    width: 0%;
+    left: 50%;
+}
 
-        .ts-mobile-btn.open span:nth-child(1) {
-            top: 18px;
-            width: 0%;
-            left: 50%;
-        }
+.ts-mobile-btn.open span:nth-child(2) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
 
-        .ts-mobile-btn.open span:nth-child(2) {
-            -webkit-transform: rotate(45deg);
-            -moz-transform: rotate(45deg);
-            -o-transform: rotate(45deg);
-            transform: rotate(45deg);
-        }
+.ts-mobile-btn.open span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
 
-        .ts-mobile-btn.open span:nth-child(3) {
-            -webkit-transform: rotate(-45deg);
-            -moz-transform: rotate(-45deg);
-            -o-transform: rotate(-45deg);
-            transform: rotate(-45deg);
-        }
+.ts-mobile-btn.open span:nth-child(4) {
+    top: 18px;
+    width: 0%;
+    left: 50%;
+}
 
-        .ts-mobile-btn.open span:nth-child(4) {
-            top: 18px;
-            width: 0%;
-            left: 50%;
-        }
+.ts-mobile-btn {
+    display: none;
+}
 
-        .ts-mobile-btn {
-            display: none;
-        }
 
 
+nav section:first-child {
+    z-index: 10;
+}
 
-        nav section:first-child {
-            z-index: 10;
-        }
+nav section:last-child {
+    z-index: 0;
+    position: relative;
+    top: -100vh;
 
-        nav section:last-child {
-            z-index: 0;
-            position: relative;
-            top: -100vh;
+    -webkit-transition: .525s ease-in-out;
+    -moz-transition: .525s ease-in-out;
+    -o-transition: .525s ease-in-out;
+    transition: .525s ease-in-out;
+}
 
-            -webkit-transition: .525s ease-in-out;
-            -moz-transition: .525s ease-in-out;
-            -o-transition: .525s ease-in-out;
-            transition: .525s ease-in-out;
-        }
+nav section.open {
+    position: relative;
+    top: 0px;
 
-        nav section.open {
-            position: relative;
-            top: 0px;
+    -webkit-transition: .525s ease-in-out;
+    -moz-transition: .525s ease-in-out;
+    -o-transition: .525s ease-in-out;
+    transition: .525s ease-in-out;
+}
 
-            -webkit-transition: .525s ease-in-out;
-            -moz-transition: .525s ease-in-out;
-            -o-transition: .525s ease-in-out;
-            transition: .525s ease-in-out;
-        }
 
 
 
@@ -229,14 +240,96 @@
 
 
 
+nav section:last-child {
+    display: none;
+}
 
-        nav section:last-child {
-            display: none;
-        }
+@media screen and (max-width: 600px) and (min-width:0px) {
 
+    nav {
+        width: 100vw;
+        height: 60px;
+    }
 
 
-        /* -------------- Responsive :: Movil ------------------------ */
+    nav section {
+        width: 100vw;
+        height: 60px;
+        display: block;
+        background-color: black;
+        border-bottom: 1px solid #444;
+
+    }
+
+    nav section .ts-title {
+        padding: 10px;
+        font-size: 22pt;
+        float: left;
+    }
+
+    nav section:last-child {
+        height: 60px;
+        border-top: 1px solid #333;
+
+    }
+
+    nav section .ts-items:last-child {
+        height: 60px;
+    }
+
+    nav section .ts-items .ts-item span {
+        display: block;
+        font-size: 17pt;
+    }
+
+    .ts-mobile-btn {
+        display: inherit;
+    }
+    .ts-theend {
+        display: none;
+    }
+    nav section:last-child {
+        display: block;
+    }
+
+    nav section .ts-item span {
+        display: block;
+        font-size: 12pt;
+    }
+
+    nav .ts-items {
+        width: 100vw;
+        height: 60px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    nav .ts-item {
+        width: 120px;
+        margin: 0 auto;
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+        border: none;
+        border-bottom: 1px solid #bbb;
+    }
+
+    nav .ts-item:last-child {
+        border: none;
+    }
+
+    nav section:last-child {
+        height: 500px;
+        border-top: 1px solid #333;
+    }
+
+    nav section .ts-items:last-child {
+        height: 500px;
+    }
+
+}
+
+/* 
 
         @media screen and (max-width: 1100px) and (min-width:0px) {
             .ts-mobile-btn {
@@ -298,4 +391,4 @@
         }
 
 
-        /* -------------- Responsive :: Movil ------------------------ */
+        -------------- Responsive :: Movil ------------------------ */
