@@ -2,30 +2,96 @@ $(document).ready(function () {
 
 
 
+
+
+
     $("#id_s0_btn").click(function () {
-        go2S1();
+        setTimeout(function (){go2S1()},100);;
     });
 
 
-
+    go2S0();
 
 
 });
 
 
-function init_s0() {
+var siin = "";
+
+
+
+function init_s0_t1() {
 
     var typed = new Typed("#typejs_s0_t1", {
-        strings: ['Hola! ,^500 somos <span class="f-bold">TheSign Lab</span>'],
+        strings: ['Hola! ,^500 somos <span class="f-bold">TheSign Lab </span>'],
         typeSpeed: 30
     });
 
 }
 
 
-function init_s0_p(){
-        var typed2 = new Typed("#typejs_s0_t2", {
-        strings: ['un laboratorio de diseño con proyectos innovadores desarrollados a partir de iniciativas en multiples campos creativos como el branding estratégico, diseño y desarrollo de producto.'],
+function init_s0_t2() {
+    var typed2 = new Typed("#typejs_s0_t2", {
+        strings: ['un laboratorio de diseño con proyectos innovadores ^100 desarrollados a partir de iniciativas en multiples , campos creativos ^200 como el branding estratégico ^200, diseño ^200 y desarrollo de producto.'],
+        typeSpeed: 30,
+        showCursor: false
+    });
+}
+
+function init_s0_t3() {
+    var typed2 = new Typed("#typejs_s0_t3", {
+        strings: ['cuéntanos sobre ti,^200  <span class="f-bold">cuál es tu nombre? </span>'],
         typeSpeed: 30
     });
+}
+
+function init_s1_t1() {
+    var typed2 = new Typed("#typejs_s1_t1", {
+        strings: ['es un gusto conocerte  <span class="f-bold"> '+siin+' </span>'],
+        typeSpeed: 30
+    });
+}
+
+function init_s1_t2() {
+    var typed2 = new Typed("#typejs_s1_t2", {
+        strings: [' ¿ Qué quieres hacer hoy ?  '],
+        typeSpeed: 30
+    });
+}
+
+function init_s6_t1() {
+    var typed2 = new Typed("#typejs_s6_t1", {
+        strings: [siin+' ahora que nos conocemos <span class="f-bold">hablemos!</span>  '],
+        typeSpeed: 30,
+        showCursor: false
+    });
+}
+
+
+
+
+function init_s5_t1() {
+    var typed2 = new Typed("#typejs_s5_t1", {
+        strings: [' cerca de construir juntos grandes <span class="f-bold">ideas</span>'],
+        typeSpeed: 30,
+        showCursor: false
+    });
+}
+
+
+
+
+
+function noName() {
+    siin  = "";
+}
+
+function setName() {
+    siin = capitalizeFirstLetter(document.getElementById("id_input_name").value);
+
+}
+
+
+function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
 }

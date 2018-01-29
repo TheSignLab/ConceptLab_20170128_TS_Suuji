@@ -1,0 +1,106 @@
+.ts-map-wrapper {
+    width: 50%;
+    height: 50vh;
+}
+
+#ts-theMap {
+    width: 100%;
+    height: 80vh;
+}
+
+.ts-slide-5 .ts-wrapper {
+    width: 80vw;
+    height: 80vh;
+    margin: 0 auto;
+    display: block;
+    background-color: white;
+    font-family: font-light;
+
+}
+
+.ts-slide-5 .ts-wrapper-col {
+    width: 40vw;
+    position: relative;
+    height: auto;
+    float: left;
+}
+
+
+.ts-slide-5 .ts-dots {
+    width: 50px;
+    position: relative;
+    top: 89px;
+    left: -45pt;
+}
+
+
+.ts-slide-5 mark {
+    background-color: #00ffcd;
+    line-height: 0pt;
+    width: 400px;
+    text-align: left;
+    color:
+}
+
+
+.ts-slide-5 .ts-p {
+    font-size: 20pt;
+    font-family: font-light;
+    text-align: left;
+    width: 600px;
+    height: 200px;
+
+}
+
+
+
+.ts-slide-5 .ts-wrapper-p {
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    left: -70px;
+    top: -150px;
+
+}
+
+.ts-slide-5 .ts-title {
+    font-size: 30pt;
+    color: black;
+    padding: 10px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+#gpsMessageText {
+    color: black;
+    width: 350px;
+}
+
+#gpsMessageText h1 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin: 0px;
+    color: black;
+}
+
+#gpsMessageText span {
+    font-family: font-bold;
+    font-size: 50pt;
+}
+
+#gpsMessageText .bg-num {
+    font-size: 80pt;
+    font-family: font-bold;
+}
+
+#gpsMessageText h2 {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.anim_s5_t2 {
+   opacity: 0;
+    position: relative;
+    left: -150px;
+}

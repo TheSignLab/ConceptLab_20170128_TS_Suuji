@@ -1,0 +1,72 @@
+.ts-slide-3 .ts-wrapper-col {
+    width: 50vw;
+
+    float: left;
+
+}
+
+.ts-slide-3 {
+    font-family: font-light;
+}
+
+.ts-slide-3 .ts-wrapper {
+    height: auto;
+    width: 100vw;
+    display: block;
+}
+
+.ts-slide-3 .ts-team-img {
+    width: 100%;
+}
+
+
+.ts-slide-3 .ts-title {
+    text-align: left;
+    width: 500px;
+    margin: 0 auto;
+    font-size: 30pt;
+    line-height: 30pt;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.ts-slide-3 .ts-dots {
+    width: 30px;
+    position: relative;
+    top: 55px;
+    left: -30pt;
+}
+
+.ts-slide-3 mark {
+    background-color: #00ffcd;
+    line-height: 0pt;
+    width: 400px;
+    text-align: left;
+}
+
+
+.ts-slide-3 .ts-p {
+    font-size: 15pt;
+    width: 400px;
+    height: 200px;
+}
+
+
+.ts-slide-3 .ts-wrapper-p {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.ts-slide-3 h2{
+    font-family: font-bold;
+    font-size: 25pt;
+}
+.ts-slide-3 h3{
+    color: gray;
+    font-family: font-light;
+    font-size: 12pt;
+    line-height: 15pt;
+}

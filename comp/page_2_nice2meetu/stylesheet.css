@@ -30,9 +30,7 @@
 
 
 
-
-
-
+}
 
 
 
@@ -117,3 +115,14 @@
     text-decoration: underline;
        text-decoration-color: #59FFCE;
 }
+
+
+
+.ts-slide-1 .ts-dots {
+    width: 50px;
+    position: relative;
+    top: 40px;
+}
+
+
+

@@ -1,16 +1,36 @@
 .ts-slide-2 {
     font-family: font-light;
-    font-size: 35pt;
+    font-size: 25pt;
 }
 
 .ts-slide-2 .ts-wrapper {
     width: 850px;
+display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: -100px
 
 }
 
 .ts-slide-2 .ts-wrapper .ts-wrapper-row {
     float: left;
     padding: 30px;
+
+}
+.ts-slide-2 .ts-wrapper .ts-wrapper-row:last-child {
+    float: left;
+    padding: 30px;
+    position: relative;
+    top: 0px;
+}
+
+.ts-slide-2 .ts-wrapper .ts-wrapper-row:first-child {
+    float: left;
+    padding: 30px;
+    position: relative;
+    top:100px;
+    left: -70px
 }
 
 .ts-slide-2 .ts-wrapper .ts-wrapper-row p {
@@ -33,7 +53,10 @@
     background-color: #59FFCE;
 }
 
-
+.ts-slide-2  .ts-med{
+    position: relative;
+    top:-100px
+}
 
 
 .ts-slide-2p5 .ts-wrapper {
@@ -43,14 +66,26 @@
 }
 
 
+.ts-slide-2 .ts-dots.d1{
+     width: 50px;
+    position: relative;
+    top: 40px;
+    left: 0px
+}
 
+.ts-slide-2 .ts-dots.d2{
+     width: 50px;
+    position: relative;
+    top: 110px;
+    left: -70px
+}
 
 .seeproyects-wrapper {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
 
 
 }
@@ -167,6 +202,12 @@
 
 
 
+
+
+
+
+
+
 .slide-full-scroll {
     width: 100vw;
     height: 100vh;
@@ -196,14 +237,14 @@
 
 
 
-    -webkit-transition: all 50ms ease-in-out;
-    -moz-transition: all 50ms ease-in-out;
-    -ms-transition: all 50ms ease-in-out;
-    -o-transition: all 50ms ease-in-out;
-    transition: all 50ms ease-in-out;
+    -webkit-transition: all 150ms ease-in-out;
+    -moz-transition: all 150ms ease-in-out;
+    -ms-transition: all 150ms ease-in-out;
+    -o-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
 
-    -webkit-transition-timing-function: cubic-bezier(1, .96, 1, 1.08);
-    transition-timing-function: cubic-bezier(1, .96, 1, 1.08);
+    -webkit-transition-timing-function: cubic-bezier(1, .96, 1, 1.18);
+    transition-timing-function: cubic-bezier(1, .96, 1, 1.18);
 }
 
 .slide-full-scroll-wrapper img {

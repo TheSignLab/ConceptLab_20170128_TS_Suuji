@@ -6,7 +6,7 @@ $(document).ready(function () {
     var px = 0;
     $('.slide-full-scroll-wrapper').mousewheel(function (event) {
 
-        px = px + 10 * event.deltaY;
+        px = px + 70 * event.deltaY;
 
         if (px > 0) {
             px = 0;
@@ -44,8 +44,7 @@ $(document).ready(function () {
 
     $('.ts-slide-2').mousewheel(function (event) {
         $.fn.fullpage.moveTo(1, 3);
-        dark_footer();
-        show_footer(2);
+        $("nav").addClass("ts-transparent");
     });
 
 });
