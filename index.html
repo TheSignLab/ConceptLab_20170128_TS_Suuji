@@ -35,7 +35,7 @@
     <!-- Card:: Twitter -->
 
     <!-- --------------  HTML Head Context Tag   ----------------->
-    <title>TheSignLab Broucher</title>
+    <title>TheSignLab Brochure</title>
     <!-- --------------  HTML Head Context Tag   ----------------->
 
     <!-- --------------  HTML Head Icon Tag      ----------------->
@@ -106,6 +106,18 @@
     <link rel="stylesheet" href="comp/page_3_seeproyects/stylesheet.css">
     <script type="text/javascript" src="comp/page_3_seeproyects/app.js"></script>
 
+    <link rel="stylesheet" href="comp/slide_3_team/stylesheet.css">
+    <script type="text/javascript" src="comp/slide_3_team/app.js"></script>
+
+    <link rel="stylesheet" href="comp/slide_4_inspir/stylesheet.css">
+    <script type="text/javascript" src="comp/slide_4_inspir/app.js"></script>
+
+    <link rel="stylesheet" href="comp/slide_5_map/stylesheet.css">
+    <script type="text/javascript" src="comp/slide_5_map/app.js"></script>
+
+    <link rel="stylesheet" href="comp/slide_6_contact/stylesheet.css">
+    <script type="text/javascript" src="comp/slide_6_contact/app.js"></script>
+
     <!-- -------------  HTML Head Components Tag  ---------------->
 
 
@@ -133,7 +145,7 @@
             <div class="ts-title" onclick="go2S0()">
                 thes:gn
             </div>
-            <div class="ts-theend" onclick="go2S5()">
+            <div class="ts-theend" onclick="go2S7()">
                 <span class="f-light">| the </span><span class="f-bold"> end </span> <img src="comp/nav/white_dots.svg">
             </div>
             <div class="ts-mobile-btn">
@@ -185,21 +197,20 @@
 
                     <div class="ts-wrapper-row">
                         <img class="ts-dots" src="comp/nav/green_dots.svg">
-                        
+
                         <span id="typejs_s0_t1"></span>
                         <p id="typejs_s0_t2"></p>
-                        
+
                     </div>
                     <div class="ts-wrapper-row">
-                        <img class="ts-dots" src="comp/nav/whitgreen_dots.svg">
-                        <span class="f-light"> cuéntanos sobre ti, </span>
-                        <span class="f-bold">¿ cúal es tu nombre?</span>
+                        <img class="ts-dots" src="comp/nav/green_dots.svg">
+                        <span id="typejs_s0_t3"></span>
                     </div>
                     <div class="ts-wrapper-row">
-                        <input type="text" class="fc1">
+                        <input type="text" class="fc1" id="id_input_name">
                         <img class="img-btn" src="comp/page_1_intro/btn-01.svg" width="100%" id="id_s0_btn">
                     </div>
-                    <a>No quiero dar mi nombre</a>
+                    <a onclick="noName()">No quiero dar mi nombre</a>
 
                 </div>
             </slide>
@@ -210,10 +221,10 @@
                 <div class="ts-wrapper">
                     <div class="ts-wrapper-row">
                         <img class="ts-dots" src="comp/nav/green_dots.svg">
-                        <span class="f-light">es un gusto conocerte </span> <span class="f-bold">Jorge! </span>
+                        <span class="f-light" id="typejs_s1_t1"></span>
                     </div>
                     <div class="ts-wrapper-row">
-                        <span class="f-bold underline" id="s1_tgt_www">¿Qué quieres hacer hoy?</span></div>
+                        <span class="f-bold underline" id="typejs_s1_t2"></span></div>
                 </div>
             </slide>
             <!-- -------------- Slide 1 ----------------------->
@@ -222,18 +233,22 @@
             <slide class="ts-slide-2 bg-white">
                 <div class="ts-wrapper">
                     <div class="ts-wrapper-row">
-                        <img class="ts-dots" src="comp/nav/green_dots.svg">
+                        <img class="ts-dots d1" src="comp/nav/green_dots.svg">
                         <span class="f-light">nos encanta</span> <span class="f-bold">pensar en los detalles...</span>
                     </div>
                     <div class="ts-wrapper-row">
-                        <img class="ts-dots" src="comp/nav/green_dots.svg">
+                        <img class="ts-dots d2" src="comp/nav/green_dots.svg">
+                        <div>
                         <mark>Nuestra participación permite que las ideas de negocio y las marcas crezcan. Unimos nuestro conocimiento y dedicación con la intención de crear juntos un futuro significativo...</mark>
+                            </div>
                     </div>
                     <div class="ts-wrapper-row">
                         <span class="f-bold underline">Estas son algunas de ellas</span>
                     </div>
                     <div class="ts-wrapper-row">
-                        <img src="comp/page_3_seeproyects/">
+                        <center>
+                        <img src="comp/page_3_seeproyects/Mouse-Scroll-Gif.gif" width="100px;">
+                            </center>
                     </div>
                 </div>
             </slide>
@@ -269,9 +284,169 @@
             </slide>
             <!-- -------------- Slide 2.5 ----------------------->
 
+            <!-- -------------- Slide 3 ----------------------->
+            <slide class="ts-slide-3 bg-white">
+                <div class="ts-wrapper">
+
+                    <div class="ts-wrapper-col">
+                        <img class="ts-team-img" src="comp/slide_3_team/theTeamImg-01.jpg">
+                    </div>
+
+                    <div class="ts-wrapper-col">
+
+                        <div class="ts-title">
+                            somos <br> un equipo <span class="f-bold">multidisciplinar</span>
+                        </div>
+                    </div>
+
+                    <div class="ts-wrapper-col">
+                        <div class="ts-wrapper-p">
+                            <img class="ts-dots" src="comp/nav/green_dots.svg">
+                            <div class=" ts-p">
+
+                                <mark>Somos soñadores con habilidades desarrolladas en diferentes disciplinas del diseño, ingenieros, artistas e ilustradores. Estamos felices de conocerte!</mark>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ts-wrapper-col">
+                        <div class="ts-title">
+                            <h2>Solo faltas tú en nuestro <span class="underline">equipo*</span></h2>
+                            <h3>*Nuestra metodología implica que seas parte del proceso y la evolución dde los proyectos que realices con nosotros.</h3>
+                        </div>
+                    </div>
+
+
+                </div>
+            </slide>
+            <!-- -------------- Slide 3 ----------------------->
+
+            <!-- -------------- Slide 4 ----------------------->
+            <slide class="ts-slide-4 bg-black">
+                <div class="ts-wrapper">
+
+                    <div class="ts-wrapper-row">
+                        <div class="ts-title" id="typed_s4_t1">
+                            queremos <span class="f-bold">transformar</span> el mundo
+                        </div>
+                    </div>
+
+                    <div class="ts-wrapper-row">
+                        <div class="ts-wrapper-p">
+                            <img id="anim_s4_t2" class="ts-dots" src="comp/nav/green_dots.svg">
+                            <div id="anim_s4_t3" class=" ts-p">
+                                <mark>No solo hacemos muchas preguntas, también experimentamos y 
+                                descubrimos.  Nos gusta crear relaciones cercanas con nuestros
+                                clientes para que sus iniciativas se conviertan en productos memorables.</mark>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="ts-wrapper-row">
+                        <div class="ts-title" id="anim_s4_t4">
+                            <h2>Los 5 pasos de nuestra <span class="underline">metodología</span>:</h2>
+                            <ul>
+                                <li>Study</li>
+                                <li>Concept</li>
+                                <li>Idea</li>
+                                <li>Experience</li>
+                                <li>Signature</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </slide>
+            <!-- -------------- Slide 4 ----------------------->
+
+
+            <!-- -------------- Slide 5 ----------------------->
+            <slide class="ts-slide-5 bg-black">
+                <div class="ts-wrapper">
+                    <div class="ts-wrapper-col">
+                        <div class="ts-title" >
+                           <h1 id="typejs_s5_t1"></h1> 
+                        </div>
+                        <div class="ts-wrapper-p anim_s5_t2" >
+                            <img class="ts-dots  " src="comp/nav/black_dots.svg">
+                            <div class="ts-p" >
+                                <mark class="anim_s5_t2">Ninguna distancia es lo suficientemente grande para impedirnos crear juntos tus proyectos.<br>Estamos ubicados en <span class="f-bold">Bogotá, Colombia.</span> 
+                                </mark>
+                                <div id="gpsMessageText">
+                                    <h1>A menos de</h1>
+                                    <span class="bg-num"></span><span>KM</span>
+                                     <h2>de<span id="gps_target"></span></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ts-wrapper-col ts-map-wrapper" style="background-color: blue;">
+                        <div id="ts-theMap"></div>
+                    </div>
+                </div>
+            </slide>
+            <!-- -------------- Slide 5 ----------------------->
+
+            <!-- -------------- Slide 6 ----------------------->
+            <slide class="ts-slide-6 bg-black">
+                <div class="ts-wrapper">
+                    <div class="ts-wrapper-col c1">
+                        <div class="content">
+                            <h1 id="typejs_s6_t1"></h1>
+                            <h2 class="underline">Déjanos tu email y nos pondremos en contacto</h2>
+                        </div>
+                    </div>
+                    <div class="ts-wrapper-col c2">
+                        <div class="content">
+                            <form>
+                                <label>TU NOMBRE</label>
+                                <input>
+                                <label>TU CORREO</label>
+                                <input>
+                                <label>TU MENSAJE</label>
+                                <textarea></textarea>
+                                <input type="submit" value="submit">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </slide>
+            <!-- -------------- Slide 6 ----------------------->
+
+            <!-- -------------- Slide 7 ----------------------->
+            <slide class="ts-slide-7 bg-black">
+                <div class="ts-wrapper">
+                    <div class="upper">
+                        <div class="block">
+                            the idea of <span class="f-bold">inspiring </span>others
+                        </div>
+                    </div>
+                    <div class="lower">
+                        <div class="block">
+                            <h1><span class="f-bold">hello</span>@thesignlab.com.co</h1>
+                            <h2>000 0000 | Calle 123 #7 - 51 Of. 702 | Kaiwa Building</h2>
+                            <h3>Bogotá, Colombia</h3>
+                            <br>
+                            <div class="social-bar">
+                                <span>#we</span><span class="f-bold">sign</span><span>ourworld</span>
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                                <i class="fa fa-behance" aria-hidden="true"></i>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </slide>
+            <!-- -------------- Slide 6 ----------------------->
+
+
         </section>
     </main>
     <!-- -------------- Main Components ----------------------->
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmqdiH7BPzdgfkV4WhfZrYN2PYGM4-jHw&callback=initMap">
+    </script>
 </body>
 
 </html>

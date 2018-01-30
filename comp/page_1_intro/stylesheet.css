@@ -14,11 +14,6 @@
     font-family: font-light;
 }
 
-.ts-dots {
-    width: 50px;
-    position: relative;
-    top: 10px;
-}
 
 .ts-wrapper-row p {
     line-height: 90%;
@@ -29,7 +24,9 @@
 
 
 
-
+.ts-slide-0 a{
+    cursor: pointer;
+}
 
 
 .ts-slide-0 {
@@ -37,6 +34,12 @@
     font-size: 30pt;
 }
 
+
+.ts-slide-0 .ts-dots{
+    width: 30px;
+        position: relative;
+    top: 20px;
+}
 .ts-slide-0 .ts-wrapper {
     width: 850px;
 

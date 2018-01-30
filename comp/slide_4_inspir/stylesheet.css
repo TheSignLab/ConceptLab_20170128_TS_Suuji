@@ -1,0 +1,99 @@
+.ts-slide-4 .ts-wrapper-col {
+    width: 50vw;
+
+    float: left;
+
+}
+
+.ts-slide-4 {
+    font-family: font-light;
+}
+
+.ts-slide-4 .ts-wrapper {
+    height: auto;
+    width: 100vw;
+    display: block;
+}
+
+.ts-slide-4 .ts-team-img {
+    width: 100%;
+}
+
+
+.ts-slide-4 .ts-title {
+    text-align: left;
+    width: 700px;
+    margin: 0 auto;
+    font-size: 30pt;
+    line-height: 30pt;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.ts-slide-4 .ts-dots {
+    width: 30px;
+    position: relative;
+    top: 55px;
+    left: -30pt;
+}
+
+.ts-slide-4 mark {
+    background-color: #00ffcd;
+    line-height: 0pt;
+    width: 700px;
+    text-align: left;
+    color: 
+}
+
+
+.ts-slide-4 .ts-p {
+    font-size: 15pt;
+    width: 700px;
+    height: 200px;
+}
+
+
+.ts-slide-4 .ts-wrapper-p {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.ts-slide-4 h2{
+    font-family: font-bold;
+    font-size: 25pt;
+}
+.ts-slide-4 h3{
+    color: gray;
+    font-family: font-light;
+    font-size: 12pt;
+    line-height: 15pt;
+}
+
+.ts-slide-4 ul {    
+    margin-left:120px;
+    font-size: 20pt;
+    line-height: 30px;
+    padding: 0px 0px 0px 20px;
+  list-style-type: none;
+    border-left: 1px solid #00ffcd;
+}
+
+
+#typed_s4_t1{
+    display: none;
+}
+
+#anim_s4_t2{
+    display: none;
+}
+
+#anim_s4_t3{
+    display: none;
+}
+
+#anim_s4_t4{
+    display: none;
+}
