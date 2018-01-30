@@ -94,6 +94,7 @@ function go2S4() {
     $("footer").removeClass("ts-footer-light");
     $("footer").addClass("ts-footer-show");
     $("nav").removeClass("ts-transparent");
+    init_s4()
 
 
 }
