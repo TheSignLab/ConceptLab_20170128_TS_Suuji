@@ -1,4 +1,3 @@
-
 $(document).ready(function () {
 
     function initialization() {
@@ -13,12 +12,12 @@ $(document).ready(function () {
     initialization()
     $.fn.fullpage.destroy();
 
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
 
 
 

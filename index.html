@@ -79,6 +79,8 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vivus@latest/dist/vivus.min.js"></script>
     <script type="text/javascript" src="lib/jquery-drawsvg-master/src/jquery.drawsvg.js"></script>
 
+    <script type="text/javascript" src="lib/jquery-bgswitcher-master/jquery.bgswitcher.js"></script>
+
     <!-- -------------  HTML Head Libraries Tag   ---------------->
 
 
@@ -139,13 +141,15 @@
 
     <!-- ----------------- Header Navbar ---------------------->
     <style>
+
+
     </style>
     <nav>
         <section>
-            <div class="ts-title" onclick="go2S0()">
+            <div class="ts-title ts-hv-c1" onclick="go2S0()">
                 thes:gn
             </div>
-            <div class="ts-theend" onclick="go2S7()">
+            <div class="ts-theend ts-hv-c1" onclick="go2S7()">
                 <span class="f-light">| the </span><span class="f-bold"> end </span> <img src="comp/nav/white_dots.svg">
             </div>
             <div class="ts-mobile-btn">
@@ -157,11 +161,11 @@
         </section>
         <section>
             <div class="ts-items">
-                <div class="ts-item" onclick="go2S2()"><span class="f-light">Ver</span><span class="f-bold">Proyectos</span></div>
-                <div class="ts-item" onclick="go2S3()"><span class="f-light">Conocer</span><span class="f-bold">Equipo</span></div>
-                <div class="ts-item" onclick="go2S4()"><span class="f-light">Buscar</span><span class="f-bold">Inspiración</span></div>
-                <div class="ts-item" onclick="go2S5()"><span class="f-light">Visitar</span><span class="f-bold">TheSign</span></div>
-                <div class="ts-item" onclick="go2S6()"><span class="f-light">Contactar</span><span class="f-bold">Empresa</span></div>
+                <div class="ts-item ts-hv-c1" onclick="go2S2()"><span class="f-light">Ver</span><span class="f-bold">Proyectos</span></div>
+                <div class="ts-item ts-hv-c1" onclick="go2S3()"><span class="f-light">Conocer</span><span class="f-bold">Equipo</span></div>
+                <div class="ts-item ts-hv-c1" onclick="go2S4()"><span class="f-light">Buscar</span><span class="f-bold">Inspiración</span></div>
+                <div class="ts-item ts-hv-c1" onclick="go2S5()"><span class="f-light">Visitar</span><span class="f-bold">TheSign</span></div>
+                <div class="ts-item ts-hv-c1" onclick="go2S6()"><span class="f-light">Contactar</span><span class="f-bold">Empresa</span></div>
             </div>
         </section>
     </nav>
@@ -170,11 +174,11 @@
     <!-- ----------------- Footer Navbar ---------------------->
     <footer>
         <div class="ts-items">
-            <div class="ts-item" onclick="go2S2()"><span class="f-light">Ver</span><span class="f-bold">Proyectos</span></div>
-            <div class="ts-item" onclick="go2S3()"><span class="f-light">Conocer</span><span class="f-bold">Equipo</span></div>
-            <div class="ts-item" onclick="go2S4()"><span class="f-light">Buscar</span><span class="f-bold">Inspiración</span></div>
-            <div class="ts-item" onclick="go2S5()"><span class="f-light">Visitar</span><span class="f-bold">TheSign</span></div>
-            <div class="ts-item" onclick="go2S6()"><span class="f-light">Contactar</span><span class="f-bold">Empresa</span></div>
+            <div class="ts-item ts-hv-c1" onclick="go2S2()"><span class="f-light">Ver</span><span class="f-bold">Proyectos</span></div>
+            <div class="ts-item ts-hv-c1" onclick="go2S3()"><span class="f-light">Conocer</span><span class="f-bold">Equipo</span></div>
+            <div class="ts-item ts-hv-c1" onclick="go2S4()"><span class="f-light">Buscar</span><span class="f-bold">Inspiración</span></div>
+            <div class="ts-item ts-hv-c1" onclick="go2S5()"><span class="f-light">Visitar</span><span class="f-bold">TheSign</span></div>
+            <div class="ts-item ts-hv-c1" onclick="go2S6()"><span class="f-light">Contactar</span><span class="f-bold">Empresa</span></div>
         </div>
     </footer>
     <!-- ----------------- Footer Navbar ---------------------->
@@ -210,7 +214,7 @@
                         <input type="text" class="fc1" id="id_input_name">
                         <img class="img-btn" src="comp/page_1_intro/btn-01.svg" width="100%" id="id_s0_btn">
                     </div>
-                    <a onclick="noName()">No quiero dar mi nombre</a>
+                    <a onclick="noName()">Saltar introducción</a>
 
                 </div>
             </slide>
@@ -239,16 +243,16 @@
                     <div class="ts-wrapper-row">
                         <img class="ts-dots d2" src="comp/nav/green_dots.svg">
                         <div>
-                        <mark>Nuestra participación permite que las ideas de negocio y las marcas crezcan. Unimos nuestro conocimiento y dedicación con la intención de crear juntos un futuro significativo...</mark>
-                            </div>
+                            <mark>Nuestra participación permite que las ideas de negocio y las marcas crezcan. Unimos nuestro conocimiento y dedicación con la intención de crear juntos un futuro significativo...</mark>
+                        </div>
                     </div>
                     <div class="ts-wrapper-row">
                         <span class="f-bold underline">Estas son algunas de ellas</span>
                     </div>
                     <div class="ts-wrapper-row">
                         <center>
-                        <img src="comp/page_3_seeproyects/Mouse-Scroll-Gif.gif" width="100px;">
-                            </center>
+                            <img src="comp/page_3_seeproyects/Mouse-Scroll-Gif.gif" width="100px;">
+                        </center>
                     </div>
                 </div>
             </slide>
@@ -261,21 +265,102 @@
                         <div class="slide-full-scroll-wrapper">
 
 
+
+                            <div class="slide-vb" id="bn_p0_e1">
+                                <div class="wrapper">
+                                    <h1>UWA</h1>
+                                    <mark>DESCUBRE TU</mark>
+                                    <hr>
+                                    <mark>LADO NATURAL</mark>
+
+                                    <P>Branding estratégico Packaging design Estrategia de comunicación
+                                    </P>
+                                    <div class="btns">
+                                        <i class="fa fa-circle ts-hv-c1 btn-active" aria-hidden="true" onclick="fnChangeBgP0(this,0)"></i>
+                                        <i class="fa fa-circle ts-hv-c1" aria-hidden="true" onclick="fnChangeBgP0(this,1)"></i>
+                                        <i class="fa fa-circle ts-hv-c1" aria-hidden="true" onclick="fnChangeBgP0(this,2)"></i>
+                                    </div>
+                                </div>
+                            </div>
+
                             <div class="slide-bg p0">
-                                <div class="slide-vb"></div>
+                                <img id="img_p0_e1" src="comp/page_3_seeproyects/images/Uwa_Img_1B.png" width="200px">
+                                <img id="img_p0_e2" src="comp/page_3_seeproyects/images/Uwa_Img_1C.png" width="200px">
+                                <img id="img_p0_e3" src="comp/page_3_seeproyects/images/Uwa_Img_1D.png" width="200px">
+                                <img id="img_p0_e4" src="comp/page_3_seeproyects/images/Uwa_Img_1E.png" width="200px">
                             </div>
+
+                            <div class="slide-vb" id="bn_p1_e1">
+                                <div class="wrapper">
+                                    <h1>CTS</h1>
+                                    <mark>El futuro de la </mark>
+                                    <hr>
+                                    <mark>educación tecnológica</mark>
+
+                                    <P>Diseño gráfico Diseño web Diseño editorial
+
+                                    </P>
+                                    <div class="btns">
+                                        <i class="fa fa-circle ts-hv-c1 btn-active" aria-hidden="true" onclick="fnChangeBgP1(this,0)"></i>
+                                        <i class="fa fa-circle ts-hv-c1" aria-hidden="true" onclick="fnChangeBgP1(this,1)"></i>
+                                        <i class="fa fa-circle ts-hv-c1" aria-hidden="true" onclick="fnChangeBgP1(this,2)"></i>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
                             <div class="slide-bg p1">
-                                <div class="slide-vb"></div>
+                                <img id="img_p1_e1" src="comp/page_3_seeproyects/images/CTS_Img_1B.png" width="200px">
+                                <img id="img_p1_e2" src="comp/page_3_seeproyects/images/CTS_Img_1C.png" width="200px">
+                                <img id="img_p1_e3" src="comp/page_3_seeproyects/images/CTS_Img_1D.png" width="200px">
                             </div>
+
+                            <div class="slide-vb" id="bn_p2_e1">
+                                <div class="wrapper">
+                                    <h1>santimaye</h1>
+                                    <mark>La diversión 2.0</mark><br>
+
+                                    <P>Diseño editorial Motion graphics Ilustración digital
+
+                                    </P>
+                                    <div class="btns">
+                                        <i class="fa fa-circle ts-hv-c1 btn-active" aria-hidden="true" onclick="fnChangeBgP2(this,0)"></i>
+                                        <i class="fa fa-circle ts-hv-c1" aria-hidden="true" onclick="fnChangeBgP2(this,1)"></i>
+                                        <i class="fa fa-circle ts-hv-c1" aria-hidden="true" onclick="fnChangeBgP2(this,2)"></i>
+                                    </div>
+                                </div>
+                            </div>
+
                             <div class="slide-bg p2">
-                                <div class="slide-vb"></div>
+                                <img id="img_p2_e1" src="comp/page_3_seeproyects/images/CTS_Img_1B.png" width="200px">
+                                <img id="img_p2_e2" src="comp/page_3_seeproyects/images/CTS_Img_1C.png" width="200px">
+                                <img id="img_p2_e3" src="comp/page_3_seeproyects/images/CTS_Img_1D.png" width="200px">
                             </div>
+                            <div class="slide-vb" id="bn_p3_e1">
+                                <div class="wrapper">
+                                    <h1>TM LISO</h1>
+                                    <mark>TOTALMENTE</mark>
+                                    <hr>
+                                    <mark>BELLA</mark>
+
+                                    <P>Diseño de empaque Diseño editorial Desarrollo de producto
+
+                                    </P>
+                                    <div class="btns">
+                                        <i class="fa fa-circle ts-hv-c1 btn-active" aria-hidden="true" onclick="fnChangeBgP3(this,0)"></i>
+                                        <i class="fa fa-circle ts-hv-c1" aria-hidden="true" onclick="fnChangeBgP3(this,1)"></i>
+                                        <i class="fa fa-circle ts-hv-c1" aria-hidden="true" onclick="fnChangeBgP3(this,2)"></i>
+                                    </div>
+                                </div>
+                            </div>
+
                             <div class="slide-bg p3">
-                                <div class="slide-vb"></div>
+                                <img id="img_p3_e1" src="comp/page_3_seeproyects/images/CTS_Img_1B.png" width="200px">
+                                <img id="img_p3_e2" src="comp/page_3_seeproyects/images/CTS_Img_1C.png" width="200px">
+                                <img id="img_p3_e3" src="comp/page_3_seeproyects/images/CTS_Img_1D.png" width="200px">
                             </div>
-                            <div class="slide-bg p4">
-                                <div class="slide-vb"></div>
-                            </div>
+
 
 
                         </div>
@@ -289,7 +374,7 @@
                 <div class="ts-wrapper">
 
                     <div class="ts-wrapper-col">
-                        <img class="ts-team-img" src="comp/slide_3_team/theTeamImg-01.jpg">
+                        <img class="ts-team-img" src="comp/page_3_seeproyects/images/equipo.png">
                     </div>
 
                     <div class="ts-wrapper-col">
@@ -363,18 +448,18 @@
             <slide class="ts-slide-5 bg-black">
                 <div class="ts-wrapper">
                     <div class="ts-wrapper-col">
-                        <div class="ts-title" >
-                           <h1 id="typejs_s5_t1"></h1> 
+                        <div class="ts-title">
+                            <h1 id="typejs_s5_t1"></h1>
                         </div>
-                        <div class="ts-wrapper-p anim_s5_t2" >
+                        <div class="ts-wrapper-p anim_s5_t2">
                             <img class="ts-dots  " src="comp/nav/black_dots.svg">
-                            <div class="ts-p" >
+                            <div class="ts-p">
                                 <mark class="anim_s5_t2">Ninguna distancia es lo suficientemente grande para impedirnos crear juntos tus proyectos.<br>Estamos ubicados en <span class="f-bold">Bogotá, Colombia.</span> 
                                 </mark>
                                 <div id="gpsMessageText">
                                     <h1>A menos de</h1>
                                     <span class="bg-num"></span><span>KM</span>
-                                     <h2>de<span id="gps_target"></span></h2>
+                                    <h2>de<span id="gps_target"></span></h2>
                                 </div>
                             </div>
                         </div>
@@ -397,15 +482,17 @@
                     </div>
                     <div class="ts-wrapper-col c2">
                         <div class="content">
-                            <form>
+                            <form action="https://formspree.io/jorgem@thesignlab.co" method="POST">
                                 <label>TU NOMBRE</label>
-                                <input>
+                                <input ype="text" name="name">
                                 <label>TU CORREO</label>
-                                <input>
+                                <input type="email" name="email">
                                 <label>TU MENSAJE</label>
-                                <textarea></textarea>
+                                <textarea name="message" placeholder="_"></textarea>
                                 <input type="submit" value="submit">
                             </form>
+
+
                         </div>
                     </div>
                 </div>
@@ -446,6 +533,8 @@
     <!-- -------------- Main Components ----------------------->
 
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmqdiH7BPzdgfkV4WhfZrYN2PYGM4-jHw&callback=initMap">
+
+
     </script>
 </body>
 

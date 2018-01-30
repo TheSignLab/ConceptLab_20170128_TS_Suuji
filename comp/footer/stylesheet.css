@@ -14,8 +14,8 @@ footer {
     margin: 0 auto;
     display: flex;
     align-items: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 
 }
 
@@ -25,6 +25,8 @@ footer .ts-items .ts-item span {}
 footer .ts-items {
     height: 150px;
 }
+
+
 
 footer .ts-items .ts-item {
     padding: 0px 20px 0px 20px;
@@ -42,11 +44,11 @@ footer.ts-footer-psMed {
 
 footer.ts-footer-show {
     bottom: 0px;
--webkit-transition: all 500ms ease-in-out;
--moz-transition: all 500ms ease-in-out;
--ms-transition: all 500ms ease-in-out;
--o-transition: all 500ms ease-in-out;
-transition: all 500ms ease-in-out;
+-webkit-transition: all 800ms ease-in-out;
+-moz-transition: all 800ms ease-in-out;
+-ms-transition: all 800ms ease-in-out;
+-o-transition: all 800ms ease-in-out;
+transition: all 800ms ease-in-out;
 }
 
 

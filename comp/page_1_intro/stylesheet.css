@@ -61,7 +61,7 @@
     
     font-size: 30pt;
 
-    background-color: rgba(20, 20, 20, 0.2);
+    background-color: rgba(86, 86, 86, 0.05);
     float: left;
 
 }
@@ -102,4 +102,5 @@ float: left;
 
 .fc1 {
     color: #59FFCE;
+    cursor:auto
 }
