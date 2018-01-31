@@ -6,12 +6,15 @@ $(document).ready(function () {
 
 
     $("#id_s0_btn").click(function () {
-        setTimeout(function (){go2S1()},100);;
+        setTimeout(function () {
+            go2S1()
+        }, 100);;
     });
 
 
     go2S0();
-    
+
+
 
 
 
@@ -19,6 +22,11 @@ $(document).ready(function () {
 
 
 var siin = "";
+    function noName() {
+        siin = "";
+        go2S1();
+    }
+
 
 
 
@@ -49,7 +57,7 @@ function init_s0_t3() {
 
 function init_s1_t1() {
     var typed2 = new Typed("#typejs_s1_t1", {
-        strings: ['es un gusto conocerte  <span class="f-bold"> '+siin+' </span>'],
+        strings: ['es un gusto conocerte  <span class="f-bold"> ' + siin + ' </span>'],
         typeSpeed: 30
     });
 }
@@ -63,7 +71,7 @@ function init_s1_t2() {
 
 function init_s6_t1() {
     var typed2 = new Typed("#typejs_s6_t1", {
-        strings: [siin+' ahora que nos conocemos <span class="f-bold">hablemos!</span>  '],
+        strings: [siin + ' ahora que nos conocemos <span class="f-bold">hablemos!</span>  '],
         typeSpeed: 30,
         showCursor: false
     });
@@ -83,10 +91,6 @@ function init_s5_t1() {
 
 
 
-
-function noName() {
-    siin  = "";
-}
 
 function setName() {
     siin = capitalizeFirstLetter(document.getElementById("id_input_name").value);

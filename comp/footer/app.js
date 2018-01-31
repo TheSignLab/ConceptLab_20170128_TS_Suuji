@@ -48,7 +48,7 @@ function go2S0() {
     }
 
     ftgs0 = false;
-
+$("nav").removeClass("ts-transparent");
 }
 
 
@@ -103,6 +103,7 @@ function go2S3() {
     $("footer").removeClass("ts-footer-light");
     $("footer").addClass("ts-footer-show");
     $("footer").removeClass("ts-transparent");
+    $("nav").removeClass("ts-transparent");
 }
 
 function go2S4() {
