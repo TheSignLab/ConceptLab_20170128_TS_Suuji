@@ -28,9 +28,10 @@
 .ts-slide-2 .ts-wrapper .ts-wrapper-row:first-child {
     float: left;
     padding: 30px;
+    padding-top: 100px;
     position: relative;
-    top: 100px;
-    left: -70px
+    top: 130px;
+    left: -70px;
 }
 
 .ts-slide-2 .ts-wrapper .ts-wrapper-row p {
