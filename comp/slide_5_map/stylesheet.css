@@ -30,7 +30,7 @@
     width: 50px;
     position: relative;
     top: 89px;
-    left: -45pt;
+    left: -65pt;
 }
 
 
@@ -103,4 +103,9 @@
    opacity: 0;
     position: relative;
     left: -150px;
+}
+
+
+#typejs_s5_t1{
+    font-size: 50px;
 }

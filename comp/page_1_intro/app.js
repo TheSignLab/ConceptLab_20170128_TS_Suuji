@@ -33,7 +33,7 @@ var siin = "";
 function init_s0_t1() {
 
     var typed = new Typed("#typejs_s0_t1", {
-        strings: ['Hola!,^500 somos <span class="f-bold">TheSign Lab </span>'],
+        strings: ['!Hola!,^100 somos <span class="f-bold">TheSign Lab </span>'],
         typeSpeed: 30
     });
 
@@ -42,7 +42,7 @@ function init_s0_t1() {
 
 function init_s0_t2() {
     var typed2 = new Typed("#typejs_s0_t2", {
-        strings: ['un laboratorio de diseño con proyectos innovadores ^100 desarrollados a partir de iniciativas en multiples campos creativos ^200 como el branding estratégico ^200, diseño ^200 y desarrollo de producto.'],
+        strings: ['Un laboratorio de diseño con proyectos innovadores ^50 desarrollados a partir de iniciativas en multiples campos creativos ^50 como el branding estratégico ^50, diseño ^50 y desarrollo de producto.'],
         typeSpeed: 30,
         showCursor: false
     });
@@ -50,7 +50,7 @@ function init_s0_t2() {
 
 function init_s0_t3() {
     var typed2 = new Typed("#typejs_s0_t3", {
-        strings: ['cuéntanos sobre ti,^200  <span class="f-bold">cuál es tu nombre? </span>'],
+        strings: ['cuéntanos sobre ti,^200  <span class="f-bold">¿ cuál es tu nombre? </span>'],
         typeSpeed: 30
     });
 }
